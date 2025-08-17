@@ -39,3 +39,37 @@ console.log(typeof isStudent);
 console.log(typeof score );
 console.log(typeof outsideTemp);
 console.log(typeof bigNumber);
+
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (primitive)  ,  Heap (Non-Primitive)
+
+
+let myYoutubename = "rakeshhiwasedotcom"
+
+let anothername = myYoutubename
+anothername = "rakeshcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl",
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "rakesh@googl.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
